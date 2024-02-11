@@ -1,0 +1,105 @@
+83 [14340] INFO perfrun.launcher <> - Launcher main begin
+93 [14340] INFO perfrun.launcher <> - MessageCatalogInit finished
+93 [14340] INFO perfrun.launcher <> - Launcher instance created
+93 [14340] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 892 --option-file D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\config\runss.options 
+110 [14340] INFO perfrun.launcher <> - New signal handler callback was added
+205 [14340] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+205 [14340] INFO perfrun.launcher <> - create file finder object
+206 [14340] INFO perfrun.launcher <> - create a result directory: pattern = D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps pid = 4294967295
+208 [14340] INFO perfrun.launcher <> - create data directory = D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0
+209 [14340] INFO perfrun.launcher <> - Creating the master collection flag
+216 [14340] INFO perfrun.launcher <> - Done creating the master collection flag
+216 [14480] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+216 [14480] INFO perfrun.sdk <> - Allocating TMU :D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0\systemcollector-544-LAPTOP-V2IPVNHJ.sc
+217 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+220 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+220 [14480] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+220 [14480] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+220 [14480] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+220 [14480] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+220 [14480] INFO perfrun.mrte <> - system-wide mode is 0
+220 [14480] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+264 [14480] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0
+264 [14480] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=LAPTOP-V2IPVNHJ
+264 [14480] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0
+264 [14480] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Calibre2\;C:\Users\mugezhang\Desktop\2023fall\mongodb developer\mongosh-1.5.4-win32-x64\mongosh-1.5.4-win32-x64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\MinGW\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.10.0;"D:\0_my_code\testing\Android SDK\platform-tools; D:\0_my_code\testing\Android SDK\tools;";C:\Users\mugezhang\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\0_my_code\backend\cangqiong_delivery\微信web开发者工具\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.3.1\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\libnvvp;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\extras\CUPTI\lib64;C:\Users\mugezhang\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python310\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\;C:\Users\mugezhang\AppData\Local\Microsoft\WindowsApps;C:\Users\mugezhang\AppData\Local\atom\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\mugezhang\Desktop\2023fall\mongodb_developer\M121\mongosh-1.6.0-win32-x64\mongosh-1.6.0-win32-x64\bin;D:\Microsoft VS Code\bin;C:\Users\mugezhang\.dotnet\tools;D:\IntelliJ IDEA 2023.2.3\bin;;C:\Users\mugezhang\AppData\Roaming\npm;D:\intellij IDEA\IntelliJ IDEA Community Edition 2023.2.5\bin;;C:\Users\mugezhang\AppData\Roaming\nvm;C:\Program Files\nodejs
+264 [14480] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+264 [14480] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+264 [14480] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+264 [14480] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+264 [14480] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+264 [14480] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+264 [14480] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+264 [14480] INFO perfrun.mrte <> - Data directory: D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0
+264 [14480] INFO perfrun.mrte <> - Mrte plugin is initialized
+264 [14480] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+264 [14480] INFO perfrun.tpss <> - initialize tpss controller
+264 [14480] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+265 [14480] INFO perfrun.tpss <> - configure collection mode: value = cpu:nostack
+265 [14480] INFO perfrun.tpss <> - default obj-size-min=1024
+265 [14480] INFO perfrun.tpss <> - default hash-table-size=0
+265 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+265 [14480] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+265 [14340] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Calibre2\;C:\Users\mugezhang\Desktop\2023fall\mongodb developer\mongosh-1.5.4-win32-x64\mongosh-1.5.4-win32-x64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\MinGW\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.10.0;"D:\0_my_code\testing\Android SDK\platform-tools; D:\0_my_code\testing\Android SDK\tools;";C:\Users\mugezhang\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\0_my_code\backend\cangqiong_delivery\微信web开发者工具\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.3.1\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\libnvvp;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\extras\CUPTI\lib64;C:\Users\mugezhang\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python310\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\;C:\Users\mugezhang\AppData\Local\Microsoft\WindowsApps;C:\Users\mugezhang\AppData\Local\atom\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\mugezhang\Desktop\2023fall\mongodb_developer\M121\mongosh-1.6.0-win32-x64\mongosh-1.6.0-win32-x64\bin;D:\Microsoft VS Code\bin;C:\Users\mugezhang\.dotnet\tools;D:\IntelliJ IDEA 2023.2.3\bin;;C:\Users\mugezhang\AppData\Roaming\npm;D:\intellij IDEA\IntelliJ IDEA Community Edition 2023.2.5\bin;;C:\Users\mugezhang\AppData\Roaming\nvm;C:\Program Files\nodejs
+265 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime\ittnotify_collector.dll
+265 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime\ittnotify_collector.dll
+266 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+266 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime\ittnotify_collector.dll
+266 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime\ittnotify_collector.dll
+266 [14340] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+266 [14340] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+266 [14340] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+266 [14340] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+266 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0
+266 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = LAPTOP-V2IPVNHJ
+266 [14340] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0
+266 [14340] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Calibre2\;C:\Users\mugezhang\Desktop\2023fall\mongodb developer\mongosh-1.5.4-win32-x64\mongosh-1.5.4-win32-x64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\MinGW\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.10.0;"D:\0_my_code\testing\Android SDK\platform-tools; D:\0_my_code\testing\Android SDK\tools;";C:\Users\mugezhang\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\0_my_code\backend\cangqiong_delivery\微信web开发者工具\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.3.1\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\libnvvp;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation\CUDA Toolkit\v12.3\extras\CUPTI\lib64;C:\Users\mugezhang\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python310\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\;C:\Users\mugezhang\AppData\Local\Microsoft\WindowsApps;C:\Users\mugezhang\AppData\Local\atom\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\mugezhang\Desktop\2023fall\mongodb_developer\M121\mongosh-1.6.0-win32-x64\mongosh-1.6.0-win32-x64\bin;D:\Microsoft VS Code\bin;C:\Users\mugezhang\.dotnet\tools;D:\IntelliJ IDEA 2023.2.3\bin;;C:\Users\mugezhang\AppData\Roaming\npm;D:\intellij IDEA\IntelliJ IDEA Community Edition 2023.2.5\bin;;C:\Users\mugezhang\AppData\Roaming\nvm;C:\Program Files\nodejs
+266 [14340] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+267 [14340] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+267 [14340] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+267 [14340] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+267 [14340] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+267 [14340] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+267 [14340] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+267 [14340] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+275 [14340] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\python.exe' is valid.
+275 [14340] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\python.exe D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\test.py
+277 [14340] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\pin.exe -error_file D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\tpsstool.dll -server_name tpss_ipc.544 -prd_dir C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0 -- C:\Users\mugezhang\AppData\Local\Programs\Python\Python39\python.exe D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\test.py
+278 [14340] INFO perfrun.launcher <> - ProcessCreator object was created
+283 [14340] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+283 [14480] INFO perfrun.itt <> - start itt controller for pid #13156
+285 [14480] INFO perfrun.tpss <> - start tpss controller for pid #13156
+346 [14340] INFO perfrun.launcher <> - Launcher: all plugins were started
+347 [14340] INFO perfrun.launcher <> - DirectoryMonitor object was created
+347 [14340] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+347 [14340] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+347 [14340] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+347 [14340] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+354 [14340] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+17538 [14340] WARN perfrun.sdk <> - Unexpected exit status - 1, at file: vcs\perfrun1\sdk\src\utils_win.cpp:541
+17538 [14340] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 1
+17553 [14480] INFO perfrun.itt <> - detach itt controller
+17553 [14480] INFO perfrun.itt <> - detach itt controller done
+17553 [14480] INFO perfrun.tpss <> - stop tpss controller
+17554 [14480] INFO perfrun.sdk <> - De-allocating TMU: D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0\systemcollector-544-LAPTOP-V2IPVNHJ.sc
+17571 [14480] INFO perfrun.system <> - closed the system trace file: D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r001ps\data.0\systemcollector-544-LAPTOP-V2IPVNHJ.sc
+17572 [14340] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+17572 [14340] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+17572 [14340] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+17572 [14340] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+17572 [14340] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+17574 [14340] INFO perfrun.launcher <> - Application exit code: 1
+17574 [14340] INFO perfrun.launcher <> - Exit code: 4

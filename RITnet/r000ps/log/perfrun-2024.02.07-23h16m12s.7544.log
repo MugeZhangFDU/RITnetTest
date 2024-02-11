@@ -1,0 +1,11 @@
+70 [9564] INFO perfrun.launcher <> - Launcher main begin
+76 [9564] INFO perfrun.launcher <> - MessageCatalogInit finished
+76 [9564] INFO perfrun.launcher <> - Launcher instance created
+76 [9564] INFO perfrun.launcher <> - argc = 9; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1040 -r D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r000ps --command stop 
+85 [9564] INFO perfrun.launcher <> - New signal handler callback was added
+158 [9564] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+158 [9564] INFO perfrun.launcher <> - create file finder object
+159 [9564] INFO perfrun.launcher <> - open the result directory: pattern = D:\学期(2%5)2024 spring\research\RITNET\RITnet-master\RITnet\r000ps
+160 [9564] INFO perfrun.launcher <> - RpcClient: IP address = 127.0.0.1; port = 4294952288
+641 [9564] INFO perfrun.launcher <> - Application exit code: 0
+641 [9564] INFO perfrun.launcher <> - Exit code: 0

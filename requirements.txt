@@ -1,0 +1,9 @@
+torchsummary
+tqdm
+matplotlib
+numpy
+torch 
+Pillow   
+opencv-python   
+argparse 
+torchvision
